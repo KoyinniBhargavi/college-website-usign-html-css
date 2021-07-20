@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBIT Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <center><h1 style="color:rgb(238, 172, 229);font-size:40px;">Chaithanya Bharathi Institute of Technology</h1></center>
+        <nav>
+            <a href="index.html"></a>
+               <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html.html">ABOUT</a></li>
+                        <li><a href="course.html.html">COURSE</a></li>
+                        <li><a href="blog.html.html">BLOG</a></li>
+                        <li><a href="contact.html.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+         </nav>
+        
+         <h1>Our Courses</h1>
+    </section>
+<!-----------about content-->
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>CSE,ECE,EEE,IT,CIVIL,MECH</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>CSE</h3>
+            <p>BTech CSE is a 4 year UG course that studies practical and theoretical knowledge of computer hardware and software. This course lays emphasis on the basics of computer programming and networking while also comprising a plethora of topics. 
+                 The admission process for the B.tech CSE is to clear entrance exams taken by colleges and universities. The entrance exams are JEE Main , SRMJEEE , etc. The eligibility criteria for the course B.tech CSE is students have to qualify 10+2 with minimum 55% marks from science stream.</p>
+        </div>
+        <div class="course-col">
+             <h3>ECE</h3>
+            <p>BTech ECE is a 4-year program focused on technologies in critical areas such as telecommunications, electricity and electronics, while promoting the development of the skills required to combine hardware and software components.
+                 It is pursued by students that have cleared 10+2 with Physics, Chemistry, and Mathematics as main subjects. It involves the study of design, analysis, and application of electronics and communication circuits.</p>
+        </div>
+        <div class="course-col">
+             <h3>IT</h3>
+            <p>BTech IT is a bachelor’s degree course in Information Technology, which has a duration of 4 years, but it can be extended up to 6 years. BTech Information Technology is the study of computer-based systems and deals with both hardware as well as software components of a computer system.</p>
+        </div>
+    </div>
+    <div class="row1">
+        <div class="course-col">
+            <h3>EEE</h3>
+            <p>B.Tech EEE is a 4-year undergraduate degree programme in electrical and electronics Engineering. This course covers various topics about application of electronics, electromagnetism and function of various electrical components to develop new and advanced electrical equipment etc.</p>
+        </div>
+        <div class="course-col">
+            <h3>CIVIL</h3>
+            <p>BTech Civil Engineering is an undergraduate engineering degree of 4 years. It is a perfect course to pursue in the current economy, as India is a developing nation and the need for skilled civil engineers is high to design and build infrastructure projects.
+                 The subjects that are taught during the course include Basic Steel Design, Construction Project Management, Geotechnical Engineering, Transportation Engineering, Structural Analysis, etc. </p>
+        </div>
+        <div class="course-col">
+                 <h3>MECHANICAL</h3>
+            <p>BTech Mechanical Engineering is a 4 year undergraduate engineering degree course. This course prepares the students to become Mechanical Engineers. The objective of this course is to prepare students to apply the principles of mechanical engineering for designing, manufacturing, and maintenance of mechanical systems. </p>
+        </div>
+    </div>
+</section>   
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Chaitanya Bharathi Institute of Technology (CBIT) is a private engineering college located in Gandipet, near Financial District,<br> Hyderabad, Telangana, India. The college is affiliated to Osmania University</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="library.png">
+            <h3>World Class Library</h3>
+            <p>Housed in an independent building, CBIT Library covers 18500 sq. feet of space over two floors. Ground floor accommodates book circulation section, back volumes of periodical and reprography/ photcopy section and newspapers. The first floor accommodates reference books, current periodicals, e-learning resource centre, digital library and discussion rooms.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Housed in an independent building, CBIT Library covers 18500 sq. feet of space over two floors. Ground floor accommodates book circulation section, back volumes of periodical and reprography/ photcopy section and newspapers. The first floor accommodates reference books, current periodicals, e-learning resource centre, digital library and discussion rooms.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="cafeteria.png">
+            <h3>Tasty and Healthy food</h3>
+            <p>Housed in an independent building, CBIT Library covers 18500 sq. feet of space over two floors. Ground floor accommodates book circulation section, back volumes of periodical and reprography/ photcopy section and newspapers. The first floor accommodates reference books, current periodicals, e-learning resource centre, digital library and discussion rooms.</p>
+        </div>
+    </div>
+
+</section>
+<!------------call to action-->
+
+<section class="footer">
+    <h3>About Us</h3>
+    <h4>Our Mission is to address the emerging needs through quality technical education and advanced research</h4>
+    <h4><bold>mail to:</bold><i>admin@cbit.ac.in</i></h4>
+</section>
+
+
+
+
+
+<!--------------javascript for toggle menu------->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right="0";
+    }
+    function hidemenu(){
+        navLinks.style.right="-200px";
+    }
+</script>   
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBIT Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <center><h1 style="color:rgb(238, 172, 229);font-size:40px;">Chaithanya Bharathi Institute of Technology</h1></center>
+        <nav>
+            <a href="index.html"></a>
+               <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html.html">ABOUT</a></li>
+                        <li><a href="course.html.html">COURSE</a></li>
+                        <li><a href="blog.html.html">BLOG</a></li>
+                        <li><a href="contact.html.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+         </nav>
+        
+         <h1>Contact Us</h1>
+    </section>
+<!-----------about content-->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.4126502056297!2d78.3172481148764!3d17.39197348807589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb94eba8ad7c87%3A0xb78f51ed556f7cc5!2sChaitanya%20Bharathi%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1626789313465!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+<section class="comtact-us">
+    <div class="row">
+        <div classs="contact-col">
+            <div>
+                
+                <span>
+                    <h5>Adress:</h5>
+                    <h5>Osman Sagar Rd, Gandipet, Telangana 500075</h5>
+                </span>
+            </div>
+            <div>
+                
+                <span>
+                    <h5>Phone:</h5>
+                    <h5>+91-040-24193276</h5>
+                    <h6>Monday To Saturday ,10AM to 6PM</h6>
+                </span>
+            </div>
+            
+        </div>
+        <div classs="contact-col"></div>
+    </div>
+</section>
+<!------------call to action-->
+
+<section class="footer">
+    <h3>About Us</h3>
+    <h4>Our Mission is to address the emerging needs through quality technical education and advanced research</h4>
+    <h4><bold>mail to:</bold><i>admin@cbit.ac.in</i></h4>
+</section>
+
+
+
+
+
+<!--------------javascript for toggle menu------->
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right="0";
+    }
+    function hidemenu(){
+        navLinks.style.right="-200px";
+    }
+</script>   
+</body>
+</html>
